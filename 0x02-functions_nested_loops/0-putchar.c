@@ -1,9 +1,11 @@
-#include<stdio.h>
+#include<unistd.h>
 
 /**
- * main - print _putchar and returns 0.
+ * main - print _putchar
+ * @c: the character to print
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
+ * On error -1, is returned and error is set approximately
  */
 int _putchar(char c)
 {
