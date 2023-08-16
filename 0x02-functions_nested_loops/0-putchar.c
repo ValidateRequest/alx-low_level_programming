@@ -1,14 +1,20 @@
-#include<unistd.h>
 #include "main.h"
 
 /**
- * main - print _putchar
- * @c: the character to print
+ * main - prints _putchar
  *
- * Return: Always 1 (Success)
- * On error -1, is returned and error is set approximately
+ * Return: 0
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	putchar(' ');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('r');
+	putchar('\n');
+	return (0);
 }
+
