@@ -1,19 +1,13 @@
-#include "main.h"
-#include<stdio.h>
+#include<unistd.h>
 
 /**
  * _putchar - writes the character c to stdout
  * @c: the character to print
  *
  * Return: On Success 1
+ * On error, -1 is returned and error is set approximately
  */
 int _putchar(char c)
 {
-	if (c == EOF)
-	{
-		return (-1);
-	}
-	_putchar(c);
-
-	return (0);
+	return(write(1, &c, 1));
 }
