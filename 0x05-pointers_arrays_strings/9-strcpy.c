@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * char _strcpy - a function that copies the sting pointer
- * @dest: copt to
+ * _strcpy - a function that copies the sting pointer
+ * @dest: copy to
  * @src: cooy from
  * Return: string
  */
