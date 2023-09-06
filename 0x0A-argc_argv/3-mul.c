@@ -17,6 +17,7 @@ int _atoi(char *s)
 	digit = 0;
 
 	while (s[len] != '\0')
+	while (s[len] != '\0')	
 		len++;
 
 	while (i < len && f == 0)
@@ -50,7 +51,7 @@ int _atoi(char *s)
  */
 int main(int argc, char *argv[])
 {
-	int results,num1, num2;
+	int result,num1, num2;
 
 	if (argc < 3 || argc > 3)
 	{
@@ -60,9 +61,9 @@ int main(int argc, char *argv[])
 
 	num1 = _atoi(argv[1]);
 	num2 = _atoi(argv[2]);
-	results = num1 * num2;
+	result = num1 * num2;
 
-	printf("%d\n", results);
+	printf("%d\n", result);
 
 	return (0);
 }
