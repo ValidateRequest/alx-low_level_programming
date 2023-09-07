@@ -8,11 +8,10 @@
  */
 int _atoi(char *s)
 {
-        int m, n, o, len, p, digit;
+        int m, n, len, p, digit;
 
         m = 0;
         n = 0;
-        o = 0;
         len = 0;
         p = 0;
         digit = 0;
@@ -28,4 +27,5 @@ int _atoi(char *s)
 
 		}
 	}
+									return (digit);
 }
